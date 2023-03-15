@@ -1,0 +1,25 @@
+<h3 class="text-center m-10"><b>¡Conoce más personas!</b> mira otros perfiles:</h3>
+
+      {{#each data}}
+    <div class="text-center card m-auto mb-4 hover:bg-white-100" style="width: 18rem;">
+        <div class="card-body">
+            <h5 class="card-title">{{this.name}}</h5>
+            <p class="card-text">{{this.description}}</p>
+            <a href="citas" class="btn btn-primary">Agendar cita</a>
+        </div>
+    </div>
+    
+      {{/each}}
+
+<br>
+
+<div class="row">
+    <div class="col-sm-6 col-md-3 col-lg-3 col-xl-3">
+    </div>
+     <div class="col-sm-6 col-md-3 col-lg-3 col-xl-3">
+    </div>
+     <div class="col-sm-6 col-md-3 col-lg-3 col-xl-3">
+    </div>
+     <div class="col-sm-6 col-md-3 col-lg-3 col-xl-3">
+    </div>
+</div>
